@@ -20,13 +20,15 @@
   <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
 </p>
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)--> -->
+  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)--> 
 
 ## Description
 
-Creating an CRUD API for photo service using [Nest](https://github.com/nestjs/nest).
-SQLite database using typeorm package. The photo is taken by the user, which info is define in user table. The photo will be saved into photo table. User's profile is defined in profile table. The user will log in to the service using endpoint '/login' (using username and passport).  Post, delete and update methods are protected and the jwt token
-was used to implement the protection operation.
+Creating an CRUD API for photo service using [Nest.js](https://github.com/nestjs/nest).
+The photo is taken by the user, which info is define in user table. 
+The photo will be saved into photo table. 
+User's profile is defined in profile table. 
+The user will log in to the service using endpoint '/login' (using username and passport).  Post, delete and update methods are protected, where the jwt token was used to implement the protection operation.
 
 ## Installation
 
@@ -59,17 +61,3 @@ $ npm run test:e2e
 # test coverage
 $ npm run test:cov
 ```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
