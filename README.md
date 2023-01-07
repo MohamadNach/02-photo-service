@@ -61,3 +61,4 @@ $ npm run test:e2e
 # test coverage
 $ npm run test:cov
 ```
+![alt text](https://github.com/[MohamadNach]/[photo-service]/blob/[master]/Swagger.jpg?raw=true)
